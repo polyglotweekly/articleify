@@ -1,6 +1,6 @@
 {
   "name": "articleify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a tool for generating static sites from directories full of markdown articles",
   "main": "./lib/index.js",
   "bin": "./bin/articleify.js",
@@ -17,7 +17,7 @@
       "output-reporter": "spec"
     }
   },
-  "repo": {
+  "repository": {
     "type": "git",
     "url": "http://github.com/polyglotweekly/articleify.git"
   },
