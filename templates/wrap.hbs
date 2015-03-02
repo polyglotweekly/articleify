@@ -1,0 +1,16 @@
+<!-- if (when) you override this template an attempt should be made
+     to adhere to the schema.org article spec. -->
+<div itemscope itemtype="http://schema.org/Article">
+  <div itemprop="headline" class="headline">{{headline}}</div>
+  <div itemprop="description" class="description">{{description}}</div>
+  <div class="author">
+    By <span itemprop="author">{{author}}</span>
+  </div>
+  <div>
+    <meta itemprop="datePublished" content="{{datePublished}}"/>
+    <span class="date">{{datePublished}}</span>
+  </div>
+  <div itemprop="articleBody" class="article-body">
+    {{{articleBody}}}
+  </div>
+</div>
