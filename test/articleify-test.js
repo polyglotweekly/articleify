@@ -29,7 +29,7 @@ describe('Articleify', function() {
 
       a.build(function(err) {
         recursive('./articles', function(err, files) {
-          files.length.should.equal(2);
+          files.length.should.equal(3);
           return done();
         });
       });
