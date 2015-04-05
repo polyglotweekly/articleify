@@ -1,11 +1,11 @@
 {
   "name": "articleify",
-  "version": "1.0.1",
-  "description": "a tool for generating static sites from directories full of markdown articles",
+  "version": "1.1.0",
+  "description": "the static site generation tool used by polyglotweekly.com",
   "main": "./lib/index.js",
   "bin": "./bin/articleify.js",
   "scripts": {
-    "test": "mocha --check-leaks --ui exports --require blanket -R mocoverage"
+    "test": "mocha --check-leaks --ui exports --require patched-blanket -R mocoverage"
   },
   "config": {
     "blanket": {
@@ -33,22 +33,23 @@
   "devDependencies": {
     "blanket": "^1.1.6",
     "chai": "^2.1.0",
-    "cheerio": "^0.18.0",
-    "mocha": "^2.1.0",
+    "mocha": "^2.2.1",
     "mocoverage": "^1.0.0",
-    "recursive-readdir": "^1.2.1",
+    "patched-blanket": "^1.0.1",
     "rimraf": "^2.2.8"
   },
   "dependencies": {
     "bluebird": "^2.9.13",
     "chalk": "^1.0.0",
+    "cheerio": "^0.18.0",
     "handlebars": "^3.0.0",
     "inquirer": "^0.8.0",
     "lodash": "^3.3.1",
-    "marky-markdown": "^5.0.2",
+    "marky-markdown": "^5.1.0",
     "mkdirp": "^0.5.0",
     "moment": "^2.9.0",
     "pretty-filename": "^0.1.0",
+    "recursive-readdir": "^1.2.1",
     "yargs": "^3.4.5"
   }
 }

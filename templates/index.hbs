@@ -1,0 +1,11 @@
+<ul id="articles">
+{{#each articles}}
+<li class="article">
+  <a class="headline" href="{{path}}">{{headline}}</a>
+  <p class="description">{{description}}</p>
+  <div>
+    <a href="https://github.com/{{github}}" class="author"><img class="avatar" src="https://avatars.githubusercontent.com/{{github}}?s=32" />{{author}}</a><span class="date">{{date}}</span>
+  </div>
+</li>
+{{/each}}
+</ul>
