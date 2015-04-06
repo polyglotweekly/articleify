@@ -6,7 +6,7 @@ Using the same markdown parser as npm, and the same syntax-highlighter
 as Atom, articleify aims to be a great platform for blogging about
 code.
 
-See [www.polyglotweekly.com](www.polyglotweekly.com) for an example of articleify in action.
+See [www.polyglotweekly.com](http://www.polyglotweekly.com) for an example of articleify in action.
 
 ## Installing
 
